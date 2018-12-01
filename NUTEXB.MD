@@ -14,14 +14,13 @@
 | -0x28 | 4 | UInt32| Image height |
 | -0x2C | 4 | UInt32| Image width |
 | -0x30 | 4 | UInt32| Padding |
-
 | -0x70 | 64 | String| Name of texture. Total space is 64 bytes. |
 | -0xB0 | 64 | UInt32[]| Array of mip map sizes |
 
 Everything after the footer is the image block. This block is swizzled in Smash Ultimate with the same algorithm as BNTX.
-The game might be able to use raw DDS but is untested.
+The game might be able to use raw DDS but is untested. 
 
-Formats
+Image formats:
 
 | Type | Value |
 | --- | --- |
