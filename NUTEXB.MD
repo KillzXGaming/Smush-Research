@@ -20,6 +20,8 @@
 Everything after the footer is the image block. This block is swizzled in Smash Ultimate with the same algorithm as BNTX.
 The game might be able to use raw DDS but is untested. 
 
+[Example Swizzle](https://github.com/KillzXGaming/Switch-Toolbox/blob/master/Switch_FileFormatsMain/FileFormats/Texture/TegraX1Swizzle.cs)
+
 Image formats:
 
 | Type | Value |
@@ -43,11 +45,3 @@ Image formats:
 | BC6_UFLOAT | 0xd7 |
 | BC7_UNORM | 0xe0 |
 | BC7_SRGB | 0xe5 |
-
-
-
-
-
-
-
-
