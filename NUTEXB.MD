@@ -1,3 +1,5 @@
+## Footer
+
 | Offset | Size | Type | Description |
 | --- | --- | --- | --- |
 | -0x00 | 2 | UInt16| Unknown. Possibly major version of file |
@@ -17,12 +19,14 @@
 | -0x70 | 64 | String| Name of texture. Total space is 64 bytes. |
 | -0xB0 | 64 | UInt32[]| Array of mip map sizes |
 
+## Image Block
+
 Everything after the footer is the image block. This block is swizzled in Smash Ultimate with the same algorithm as BNTX.
 The game might be able to use raw DDS but is untested. 
 
 [Example Swizzle](https://github.com/KillzXGaming/Switch-Toolbox/blob/master/Switch_FileFormatsMain/FileFormats/Texture/TegraX1Swizzle.cs)
 
-Image formats:
+## Image formats:
 
 | Type | Value |
 | --- | --- |
