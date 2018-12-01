@@ -24,6 +24,7 @@ The game might be able to use raw DDS but is untested.
 Formats
 
 | Type | Value |
+| --- | --- |
 | R8G8B8A8_UNORM | 0x00 |
 | R8G8B8A8_SRGB | 0x05 |
 | R32G32B32A32_FLOAT | 0x34 |
