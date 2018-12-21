@@ -13,7 +13,7 @@
 | -0x20 | 4 | UInt32| Pixel Size Z |
 | -0x24 | 4 | UInt32| Pixel Size Y (Height) |
 | -0x28 | 4 | UInt32| Pixel Size X (Width) |
-| -0x | 4 | UInt32| Padding |
+| -0x2C | 4 | UInt32| Padding |
 | -0x70 | 64 | String| Name of texture. Total space is 64 bytes. |
 | -0xB0 | 64 | UInt32[]| Array of mip map sizes |
 
